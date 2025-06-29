@@ -21,19 +21,18 @@ ARMH1.py calculates:
     alpha_val: optimal alpha correspongding rmse_val,
     T_val: time range,
     Tcoe: coefficients for the estimated solution under basis function achieving minimal RMSE with optimal parameters at        final time of T_seris.
+
     Output Visualization:
-    
     rmse_vs_T.eps: rmse_val variation over time T_val,
     alpha_vs_T.eps: Optimal alpha_val evolution over time T_val.
 
 drawrecons.py plot:
-
     Visualizes the optimal RMSE solution at the final timestep, and exports Cartesian coordinate matrices of the plotted solution-data_plot.txt.
 
 drawtrue.py plot:
-
     Visualizes the true solution at the final timestep, and exports Cartesian coordinate matrices of the plotted solution-true_sol.txt.
     
-      
+optimal_H1.m: Visualizes the optimal RMSE and optimal alpha variations over time T_val ,
+recons_true_H1.m:Visualizes the optimal RMSE solution and the true solution at the final timestep under Cartesian coordinate matrices.
 
     
